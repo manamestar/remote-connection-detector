@@ -1,5 +1,5 @@
 this is a remote connection detector which basically scans your pc in order to find remote access trojans 
-1. you'll need python installed 3.11 and above
+1. you'll need python installed 3.11 and above or use vscode for accurate results
 2. install the python script in the repo and run to scan
 3. and if you are suspicious about the script you could read it yourself and check that its sole purpose is to check rat connections
 
