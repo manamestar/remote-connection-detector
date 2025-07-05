@@ -1,0 +1,76 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #111, #222);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4ade80;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #4ade80;
+  color: #111;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.features {
+  padding: 3rem 1rem;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+.features li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  background: #111;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+.slide-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideIn 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px) }
+  to { opacity: 1; transform: translateY(0) }
+}
